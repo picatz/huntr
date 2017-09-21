@@ -9,6 +9,7 @@ A simple reconnaissance command-line application with built in support for whois
 ## Look, a wild Geff appeared!
 
 ![demo](https://github.com/picatz/huntr/blob/master/demo.gif)
+###### Ran on a simulated network using pre-found responses.
 
 ## Usage
 
