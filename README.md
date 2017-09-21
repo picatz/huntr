@@ -6,6 +6,10 @@ A simple reconnaissance command-line application with built in support for whois
 
     $ gem install huntr
 
+## Look, a wild Geff appeared!
+
+![demo](https://i.imgur.com/UldC0jX.gifv)
+
 ## Usage
 
 To get started, create a new reconnaissance directory. This is where all the information gathered during the reconnaissance will be aggregated into a `target.yaml` file which will store all the information about our target including information such as domains, ip addresses and open ports.
