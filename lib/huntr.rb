@@ -3,14 +3,12 @@ require "nmapr"
 require "shodan"
 require "yaml"
 require "colorize"
-require "pry"
 require "socket"
 require "unirest"
 require "resolv"
 require "ipaddress"
 require "whois-parser"
 require "huntr/version"
-require "huntr/target"
 
 # The purpose of this libary is provide the tooling required
 # to effectively perform reconnaissance on a given target.
@@ -35,9 +33,9 @@ module Huntr
     if ENV["SHODAN_API_KEY"].nil?
       puts "No shodan API key detected. Will not be able to use shodan!"
     end
-    name "Huntr".colorize(:yellow)
+    name "Huntr"
     version Huntr::VERSION
-    description "Command-line reconnaissance toolkit."
+    description "A simple reconnaissance command-line application."
 
     command :create do
       description "Create a new reconnaissance directory to store relevant information."
