@@ -8,7 +8,7 @@ A simple reconnaissance command-line application with built in support for whois
 
 ## Look, a wild Geff appeared!
 
-![demo](https://i.imgur.com/UldC0jX.gifv)
+![demo](https://github.com/picatz/huntr/blob/master/demo.gif)
 
 ## Usage
 
