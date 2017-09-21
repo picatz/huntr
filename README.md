@@ -86,7 +86,7 @@ huntr whois google.com
 
 This project was built for my Ethical Hacking Reconnaissance Lab project. I didn't want to write a paper, so I wrote a command-line tool.
 
-#### NMAP
+#### Nmap
 
 To use the NMAP integration you will need to download and install nmap.
 

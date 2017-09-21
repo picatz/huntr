@@ -27,13 +27,9 @@ module Huntr
       data["ips"] = []
       data.to_yaml
     end
-
-    def self.target_file?
-      File.file?("target.yaml")
-    end
   end
 
-  trap("SIGINT") { exit 0 }
+  trap("SIGINT") { puts "Stopping huntr!"; exit 0 }
 
   CommandLion::App.run do
     if ENV["SHODAN_API_KEY"].nil?
